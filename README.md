@@ -10,4 +10,4 @@ By Start the apache tomcat server, by default Tomcat server will be listening to
 
 After starting the application, open a browser and hit the below URL . Your application will be rendered
 
-LIVE DEMO : http://localhost:3000/HelloWorld
+LIVE DEMO : http://localhost:8080/HelloWorld
