@@ -1,0 +1,13 @@
+jobs:
+  build-service:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+
+      ... // You must generate a test coverage report here.
+
+      - uses: pooi/coverage-badge@1.0.0
+        with:
+          token: ${{ secret.GITHUB_ACCESS_TOKEN }}
+          xml-test-report-path: ${SOURCE_PATH}/build/reports/kover/report.xml
+          html-test-report-path: ${SOURCE_PATH}/build/reports/kover/html
