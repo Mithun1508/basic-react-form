@@ -1,4 +1,4 @@
-# Learnt how to create a form in using ReactJS/Redux without using any libraries. Started coding the Application from Scratch in a New Sandbox Env.
+# Learnt how to create a form in using ReactJS/Redux without using any libraries. Started coding the Application from Scratch in a New Sandbox Env
 
  ⚡ How to create a form component that uses local state.
 
